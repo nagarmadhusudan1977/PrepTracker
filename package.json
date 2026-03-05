@@ -1,0 +1,1 @@
+{\n  "name": "prep-tracker",\n  "private": true,\n  "workspaces": [\n    "frontend",\n    "backend"\n  ],\n  "scripts": {\n    "start": "npm run install:workspaces && npm run start:workspaces",\n    "install:workspaces": "npm install --workspaces",\n    "start:workspaces": "npm run start --workspaces"\n  }\n}
